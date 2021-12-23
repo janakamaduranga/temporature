@@ -1,0 +1,21 @@
+1) Technologies used
+Spring boot, WebFlux, MongoDb
+
+Justification for technology selection
+a) Due to performance and nature of data decided to use MongoDB. Temperature data
+is not relational therefore chose a no sql data base
+
+b) Decided to go with WebFlux due to non blocking nature which finally
+deliver better performance
+
+2) Run the project. There are two options to run
+a) Go to command line, move to project directory
+and run "mvn spring-boot:run"
+b) Import to an IDE and run TemporatureApplication
+
+3) Swagger API documentation can be accessed in
+http://localhost:8080/webjars/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
+
+4) Import "TemperatureAPI.postman_collection.json" file which is in the
+project's root folder to postman and test the application
+
